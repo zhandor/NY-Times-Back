@@ -8,7 +8,7 @@ dotenv.config()
 
 const envConfig: IConfig = {
 	env: env.NODE_ENV || 'Dev',
-	port: Number(env.NODE_PORT) || 3000
+	port: Number(env.NODE_PORT) || 3003
 }
 
 const extAPI: IExtAPI = {
